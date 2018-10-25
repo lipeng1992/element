@@ -28,7 +28,7 @@
         :disabled="inputDisabled"
         :readonly="readonly"
         :autocomplete="autoComplete || autocomplete"
-        :value="currentValue+'%"
+        :value="currentValue+'%'"
         ref="input"
         @compositionstart="handleComposition"
         @compositionupdate="handleComposition"
